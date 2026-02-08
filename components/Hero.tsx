@@ -106,8 +106,8 @@ const Hero: React.FC = () => {
 
             {/* Stats Overlay */}
             <div className="absolute -bottom-8 -right-8 glass p-5 rounded-2xl border border-white/10 shadow-2xl max-w-[180px] z-30 transition-transform hover:-translate-y-2">
-              <div className="text-blue-400 font-bold text-3xl font-heading tracking-tighter">8.52</div>
-              <div className="text-white/40 text-[10px] uppercase font-bold tracking-[0.2em]">Academic Merit</div>
+              <div className="text-blue-400 font-bold text-3xl font-heading tracking-tighter">Google</div>
+              <div className="text-white/40 text-[10px] uppercase font-bold tracking-[0.2em]">Student Ambassador</div>
             </div>
 
             <div className="absolute -top-8 -left-8 glass p-4 rounded-2xl border border-white/10 shadow-2xl z-30 transition-transform hover:translate-y-2">

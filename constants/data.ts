@@ -3,7 +3,7 @@ import { Project, Experience, SkillCategory, Achievement, Certificate, Patent } 
 
 export const PERSONAL_INFO = {
   name: "Nihal D R",
-  title: "AI & Data Science Engineer | Full Stack Developer",
+  title: "AI & Data Science Engineer",
   bio: "Computer Science student specializing in Artificial Intelligence and Data Science, building practical, data-driven solutions using machine learning and modern web technologies.",
   profileImage: "https://i.postimg.cc/g2pk5Rdf/image.png",
   resumeUrl: "resume.pdf",
