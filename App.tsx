@@ -17,12 +17,10 @@ import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
 
 const App: React.FC = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
   useEffect(() => {
-    // Simulate loading
-    const timer = setTimeout(() => setIsLoading(false), 2000);
     
     const handleScroll = () => {
       const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
@@ -32,7 +30,6 @@ const App: React.FC = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => {
-      clearTimeout(timer);
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
