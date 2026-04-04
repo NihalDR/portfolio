@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
   education: {
     degree: "Bachelor of Engineering – Artificial Intelligence & Data Science",
     institution: "CMR Institute of Technology, Bangalore",
-    cgpa: "8.52 / 10",
+    cgpa: "8.55 / 10",
     graduation: "2027"
   },
   socials: {
