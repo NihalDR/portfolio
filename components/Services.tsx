@@ -32,7 +32,7 @@ const SERVICES = [
 
 const Services: React.FC = () => {
   return (
-    <section id="services" className="py-24 relative overflow-hidden">
+    <section id="services" className="py-10 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>

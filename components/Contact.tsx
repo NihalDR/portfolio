@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24 relative">
+    <section id="contact" className="py-10 relative">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-blue-500 font-heading font-medium tracking-widest uppercase mb-4">

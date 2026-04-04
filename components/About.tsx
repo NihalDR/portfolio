@@ -6,7 +6,7 @@ import { PERSONAL_INFO } from '../constants/data';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="py-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <motion.div

@@ -6,7 +6,7 @@ import { ACHIEVEMENTS } from '../constants/data';
 
 const Achievements: React.FC = () => {
   return (
-    <section id="achievements" className="py-24 bg-gradient-to-b from-transparent to-blue-900/5">
+    <section id="achievements" className="py-10 bg-gradient-to-b from-transparent to-blue-900/5">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-blue-500 font-heading font-medium tracking-widest uppercase mb-4">
