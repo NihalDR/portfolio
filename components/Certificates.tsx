@@ -6,7 +6,7 @@ import { CERTIFICATES } from '../constants/data';
 
 const Certificates: React.FC = () => {
   return (
-    <section id="certificates" className="py-24">
+    <section id="certificates" className="py-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <motion.h2 

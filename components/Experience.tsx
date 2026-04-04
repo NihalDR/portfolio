@@ -6,7 +6,7 @@ import { EXPERIENCES } from '../constants/data';
 
 const Experience: React.FC = () => {
   return (
-    <section id="experience" className="py-24 bg-[#080808]">
+    <section id="experience" className="py-10 bg-[#080808]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>

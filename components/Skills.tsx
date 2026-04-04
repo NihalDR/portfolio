@@ -17,7 +17,7 @@ const iconMap: Record<string, any> = {
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-24 relative">
+    <section id="skills" className="py-10 relative">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <motion.h2 

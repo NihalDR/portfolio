@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-blue-500 font-heading font-medium tracking-widest uppercase mb-4">

@@ -6,7 +6,7 @@ import { PATENTS } from '../constants/data';
 
 const Patents: React.FC = () => {
   return (
-    <section id="patents" className="py-24 bg-[#080808]/50 border-y border-white/5 relative overflow-hidden">
+    <section id="patents" className="py-10 bg-[#080808]/50 border-y border-white/5 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-blue-600/5 blur-[120px] rounded-full pointer-events-none"></div>
 
