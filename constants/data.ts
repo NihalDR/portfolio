@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
   education: {
     degree: "Bachelor of Engineering – Artificial Intelligence & Data Science",
     institution: "CMR Institute of Technology, Bangalore",
-    cgpa: "8.55 / 10",
+    cgpa: "8.63 / 10",
     graduation: "2027"
   },
   socials: {
@@ -87,6 +87,13 @@ export const SKILLS: SkillCategory[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: "exp5",
+    role: "Google Summer of Code 2026 Contributor",
+    company: "CCExtractor",
+    duration: "Google Summer of Code 2026",
+    description: "Contributed to Ultimate Alarm Clock, an open-source alarm application, while collaborating with an international team through GitHub workflows, code reviews, issue tracking, and feature development."
+  },
+  {
     id: "exp1",
     role: "Google Gemini Student Ambassador",
     company: "Google",
@@ -117,6 +124,15 @@ export const EXPERIENCES: Experience[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  {
+    id: "p7",
+    title: "Ultimate Alarm Clock (UAC)",
+    description: "Open-source alarm clock application focused on reliable and condition-based alarms, developed as part of Google Summer of Code 2026 with CCExtractor.",
+    tech: ["Flutter", "Dart", "Kotlin", "Firebase", "GitHub Actions", "CI/CD"],
+    features: ["Alarm History", "Debugging and Testing Workflows", "Shared Alarms", "Calendar Integration", "Companion App Synchronization", "CI/CD Automation"],
+    image: "https://picsum.photos/800/600?random=7",
+    github: "https://github.com/NihalDR/ultimate_alarm_clock"
+  },
   {
     id: "p1",
     title: "Lingam Aabharanam",
