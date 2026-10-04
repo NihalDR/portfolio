@@ -9,14 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react-dom": "^19.2.4",
-    "react": "^19.2.4",
+    "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.33.0",
     "lucide-react": "^0.563.0",
-    "@emailjs/browser": "^4.4.1"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
